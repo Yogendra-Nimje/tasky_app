@@ -18,7 +18,7 @@ class _MyButtonState extends State<MyButton> {
   Widget build(BuildContext context) {
     return MaterialButton(
       onPressed: widget.onPressed,
-      color: Theme.of(context).primaryColor ,
+      color: Colors.blue[400] ,
       child: Text(widget.text,style: const TextStyle(color: Colors.white),),
     );
   }

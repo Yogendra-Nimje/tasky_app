@@ -74,15 +74,16 @@ class _ToDoPageState extends State<ToDoPage> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      backgroundColor: Colors.purple[100],
+      backgroundColor: Colors.blue[100],
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("To Do Tasks",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white),),
+        title: const Text("To Do Tasks",
+          style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white),),
         elevation: 0,
-        backgroundColor: Colors.purple[300],
+        backgroundColor: Colors.blue,
       ),
       floatingActionButton:  FloatingActionButton(
-        backgroundColor: Colors.purple[400],
+        backgroundColor: Colors.blueAccent,
         onPressed: createNewTask,
          child: const Icon(Icons.add,color: Colors.white,),
       ),

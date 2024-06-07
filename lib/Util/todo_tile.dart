@@ -64,7 +64,7 @@ class _ToDoTileState extends State<ToDoTile> {
                 //checkbox
                 Checkbox(value: widget.taskcomplete,
                     onChanged: widget.onChanged,
-                    activeColor: Colors.purple[200] ,),
+                    activeColor: Colors.blue[300] ,),
                 //Task name
                 Text(
                     widget.taskname,

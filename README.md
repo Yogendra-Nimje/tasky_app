@@ -1,6 +1,7 @@
 # tasky_app
 
-A new Flutter project.
+A Flutter TO DO Task project.
+![img.png](lib%2Fassets%2Fimg.png)
 
 ## Getting Started
 

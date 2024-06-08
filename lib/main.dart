@@ -1,7 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 import 'package:tasky_app/Pages/todo_page.dart';
 
-void main() {
+void main() async{
+
+  WidgetsFlutterBinding.ensureInitialized();
+   // open the box
+  await Hive.initFlutter();
+  await Hive.openBox('mybox');
+
+
   runApp(const MyApp());
 }
 
